@@ -18,16 +18,27 @@ Most known extrasolar planets (exoplanets) have been discovered using the transi
 - final transit fit
 
 ### Parameters
-- $A$ --- stellar flux outside transit
-- $b$ -- transit depth
-- $t_c$ -- time at midpoint
-- $w$ -- transit width
+- $A$ - stellar flux outside transit
+- $b$ - transit depth
+- $t_c$ - time at midpoint
+- $w$ - transit width
 
 ### Relationship Between Parameters 
 
 Instead of using a physical model for modeling the exoplanet transit (a model which would have to include parameters such as the period of the planet, the ratio of its radius to the radius of the star, the impact parameter, the eccentricity of the orbit and other physics), we'll use a mock transit model specified by a simple piecwise function defined as follows:
 
-𝜇(𝑡)={𝐴,𝐴−𝑏,(𝑡𝑐−𝑤/2)≤𝑡≤(𝑡𝑐+𝑤/2) otherwise  
+$$
+
+% \textit{ \nu(t) = \set{𝐴,𝐴−𝑏,(𝑡𝑐−𝑤/2)≤𝑡≤(𝑡𝑐+𝑤/2) otherwise  }
+
+\nu(t) = 
+\begin{cases}
+
+
+
+
+\end{cases}
+$$
 
 where  𝐴  is the stellar flux outside of the transit,  𝑏  is the depth of the transit,  𝑡𝑐  is the time at midpoint and  𝑤  is the width of the transit. The inference procedure is exactly the same using a more realistic transit model except the function we plug into the likelihood is different and a lot more complex.
 
