@@ -1,5 +1,5 @@
 # Transit Curve Fitting
-In this project, I run an MCMC analysis on an exoplanet dataset to determine the transit parameters A, b, t_c, and w.
+In this project, I run an MCMC analysis on an exoplanet dataset to determine the transit parameters $A$, $b$, $t_c$, and $w$.
 
 Most known extrasolar planets (exoplanets) have been discovered using the transit method. A transit occurs when a planet passes between a star and its observer, causing a brief dip in the brightness of the parent star. This dimming can be seen in light curves – graphs showing light received over a period of time. When the exoplanet passes in front of the star, the light curve will show a dip in brightness. Transits can help determine a variety of different exoplanet characteristics. The size of the exoplanet’s orbit can be calculated from how long it takes to orbit once (the period), and the size of the planet itself can be calculated based on how much the star’s brightness lowered.
 
@@ -18,10 +18,10 @@ Most known extrasolar planets (exoplanets) have been discovered using the transi
 - final transit fit
 
 ### Parameters
-- A -- stellar flux outside transit
-- b -- transit depth
-- t_c -- time at midpoint
-- w -- transit width
+- $A$ --- stellar flux outside transit
+- $b$ -- transit depth
+- $t_c$ -- time at midpoint
+- $w$ -- transit width
 
 ### Relationship Between Parameters 
 
