@@ -28,15 +28,11 @@ Most known extrasolar planets (exoplanets) have been discovered using the transi
 Instead of using a physical model for modeling the exoplanet transit (a model which would have to include parameters such as the period of the planet, the ratio of its radius to the radius of the star, the impact parameter, the eccentricity of the orbit and other physics), we'll use a mock transit model specified by a simple piecwise function defined as follows:
 
 $$
-
-% \textit{ \nu(t) = \set{𝐴,𝐴−𝑏,(𝑡𝑐−𝑤/2)≤𝑡≤(𝑡𝑐+𝑤/2) otherwise  }
-
-\nu(t) = 
+\mu(t) =
 \begin{cases}
-
-
-
-
+A, & t < t_c - \frac{w}{2} \\
+A - b, & t_c - \frac{w}{2} \le t \le t_c + \frac{w}{2} \\
+A, & t > t_c + \frac{w}{2}
 \end{cases}
 $$
 
