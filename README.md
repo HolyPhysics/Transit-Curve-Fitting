@@ -36,7 +36,7 @@ A, & t > t_c + \frac{w}{2}
 \end{cases}
 $$
 
-where  𝐴  is the stellar flux outside of the transit,  𝑏  is the depth of the transit,  𝑡𝑐  is the time at midpoint and  𝑤  is the width of the transit. The inference procedure is exactly the same using a more realistic transit model except the function we plug into the likelihood is different and a lot more complex.
+where  $A$  is the stellar flux outside of the transit,  $b$  is the depth of the transit,  $t_c$  is the time at midpoint and $w$ is the width of the transit. The inference procedure is exactly the same using a more realistic transit model except the function we plug into the likelihood is different and a lot more complex.
 
 ---
 
@@ -53,7 +53,7 @@ where  𝐴  is the stellar flux outside of the transit,  𝑏  is the depth of 
 ### Installation Command
 
 ```bash
-pip install numpy matplotlib astropy astroML scikit-learn
+pip install numpy matplotlib astropy astroML
 ```
 
 ---
